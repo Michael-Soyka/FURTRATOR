@@ -1,0 +1,61 @@
+Screen {
+    layout: vertical;
+}
+
+Rule {
+    color: $panel;
+}
+
+.counter {
+    width: auto;
+}
+
+.stats {
+    border: solid $panel;
+    height: 3;
+    border-title-align: center;
+    border-title-color: $accent;
+    padding: 0 1
+}
+
+.progressbar {
+    margin-left: 1;
+    width: 100%;
+}
+.progressbar Bar {
+    width: 100%;
+}
+
+.stats-item {
+    width: auto;
+}
+
+.preview-meta  {
+    padding: 1 3;
+    border: solid $panel;
+    width: 2fr;
+    border-title-color: $accent;
+}
+
+.meta-row {
+    margin-bottom: 1;
+    height: auto;
+}
+
+.meta-value {
+    color: $accent;
+    margin-left: 1;
+}
+
+.preview-image {
+    padding: 1;
+    border: solid $panel;
+    width: 1fr;
+    align: center middle;
+    border-title-color: $accent;
+}
+
+.image {
+    width: auto;
+    height: auto;
+}
