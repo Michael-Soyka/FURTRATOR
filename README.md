@@ -56,6 +56,17 @@ Script has TUI that shows sorting progress.
 | -               | -       | -        | -
 | Enable TUI      | True    | USE_UI   | Enables TUI render instead of simple print-output
 
+Example of the print-output:
+```
+Processing Ztb7RP7j1YaR4EMTsMKCHWlcW2Ksn3T2q_CwOqrctagEDAjo10UxDS0lZLEn.jpg
+├─Category: NSFW_FURRY
+├─Type:     .jpg
+├─Source:   Ztb7RP7j1YaR4EMTsMKCHWlcW2Ksn3T2q_CwOqrctagEDAjo10UxDS0lZLEn.jpg
+├─Dest:     Drive:\export\Ztb7RP7j1YaR4EMTsMKCHWlcW2Ksn3T2q_CwOqrctagEDAjo10UxDS0lZLEn.jpg
+└─NSFW Score | Furry Score
+  0.0121       0.9438
+```
+
 ## In The End
 Special thanks to:
  - MaestroDDOS - advices
